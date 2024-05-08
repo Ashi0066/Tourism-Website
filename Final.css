@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}/*this controls the overal body of the page untill uunless i have changed it with another div  */
+
+body{
+    width:100%;
+    height:100vh;
+}
+li, a  {
+    
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+}/*from here starts my list divs i have used these divs to design the header of my website  */
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:25px 8%;
+    background-color: rgb(148, 192, 241);
+    line-height: 35px;
+
+}
+.logo a{
+    cursor:pointer;
+    color:white;
+    font-size:38px;
+    text-transform:uppercase;
+    font-weight: bold;
+
+}
+.nav__links{
+    list-style:none;
+}
+.nav__links li{
+    display:inline-block;
+    padding:0px 22px;
+ }
+ .nav__links li a {
+     transition: all 0.2s ease 0s;
+     text-transform: uppercase;
+ }
+
+ .nav__links li a:hover {
+     color:crimson;
+}
+
+.frontimage img{
+    width:100%;
+    height: 100vh;
+    padding: 2px 2px;
+    animation: both;
+    
+}
+.written_part{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:dashed;
+    font-size: 16px;
+    background-color: rgb(148, 192, 241);
+    color: aliceblue;
+    padding: 4px;
+    border-radius: 8px;
+
+
+}/* this part is for the written text in my page i have used it to change color and add paddig around my text */
+footer{
+    position:relative;
+    left: 0;
+    bottom: 0;
+   
+    width: 100%;
+   padding: 20px;
+    background-color: rgb(148, 192, 241);
+    color: white;
+    text-align: center;
+  }/* i have used this div to add padding in my fotter add backgroudn color and text color*/
+ 
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+    border: 30px ;
+  }/*i have taken this one from w3c website */
+  
+  
+  .fa:hover {
+      color: gray;
+    opacity: 0.7;
+  }/*i have taken this one from w3c website */
+  
+  
+  
+  .fa-facebook {
+    
+    color: white;
+  }/*i have taken this one from w3c website */
+  
+  
+  .fa-twitter {
+    
+    color: white;
+  }/*i have taken this one from w3c website */
+  .footer-text{
+      font-size: smaller;
+  }/*i have taken this one from w3c website */
+.title_text{
+    text-decoration:double;
+}
+.form{
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 20px solid rgb(148, 192, 241);
+    margin: 50px;
+    box-sizing: border-box;
+    
+}
+.second_image1{
+    display: grid;
+   
+    padding: 2px;
+    
+
+}
+.second_image1  img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 1px;
+    object-position: center;
+    object-fit: cover;
+    
+}
+
+
+
+.logo a:hover{
+    color:crimson;
+}/* i have used this div to add hover effect to my image  */

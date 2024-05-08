@@ -1,0 +1,22 @@
+body{Background-image:url('19670.jpg');}
+h1{background-color:yellow; text-align:centre;}
+p{ font-family:'new roman'; font-size:14px ; color:red;}
+
+  P{ font-weight:bold;}
+
+a:link{color:green;}
+a:Visited { color:red;}
+
+
+.centre{text-align:centre:}
+
+.mystyle1 { font-family:'open sans';
+              font-weight:bold;
+              font-size:32pt;
+              color:blue;}
+
+.mystyle {font-family:'helvetica';
+          font-weight:italic;
+          font-size:14pt;
+           color:blue;}
+
